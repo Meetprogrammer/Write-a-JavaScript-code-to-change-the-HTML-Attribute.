@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change HTML Attribute</title>
+</head>
+<body>
+	<h2>Change HTML Attribute</h2>
+	<img id="myImg" src="1.png" alt="Original Image" style="width: 250px; height: 250px;">
+	<br><br>
+	<button onclick="changeAttribute()">Change Image</button>
+    <script>
+		function changeAttribute(){
+			document.getElementById("myImg").src = "2.png";
+            document.getElementById("myImg").style.width = " 250px";
+			document.getElementById("myImg").style.height = " 250px";
+        }
+	</script>
+</body>
+</html>
